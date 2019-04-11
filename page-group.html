@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title>通用列表页面</title>
+	    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	    <link rel="shortcut icon" href="/favicon.ico">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+	    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+	    <style>
+	    	.bar .icon{
+	    		color:#f60;
+	    	}
+	    </style>
+	</head>
+	<body>
+		<div class="page-group">
+			<div class="page page-current">
+				<div class="bar bar-nav">
+					<a href="#" class="icon icon-me pull-left open-panel"></a>
+					<h1 class="title">taobao</h1>
+				</div>
+				<div class="bar bar-tab">
+					<a href="#" class="tab-item">
+						<span class="icon icon-home"></span>
+						<span class="tab-label">首页</span>
+					</a>
+					<a href="#" class="tab-item">
+						<span class="icon icon-star"></span>
+						<span class="tab-label">收藏</span>
+					</a>
+					<a href="#" class="tab-item">
+						<span class="icon icon-settings"></span>
+						<span class="tab-label">设置</span>
+					</a>
+				</div>   
+				<div class="content">
+		                <div class="content-block">这里是content</div>
+		        </div>
+			</div>
+			<div class="page">2</div>
+		</div>
+		<div class="panel-overlay"></div>
+		<div class="panel panel-left panel-reveal">
+			<div class="content-block">
+	            <p>这是一个侧栏</p>
+	            <p></p>
+	            <!-- Click on link with "close-panel" class will close panel -->
+	            <p><a href="#" class="close-panel">关闭</a></p>
+	        </div>
+		</div>
+		<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+		<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+		<script>
+			$.init()
+		</script>
+	</body>
+</html>
